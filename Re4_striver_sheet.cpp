@@ -23,18 +23,18 @@ using namespace std;
             //     reverse2(i+1,arr,n);
             // }
 // Check if a string is Palindrome
-bool palin(string &s,int i=0)
-{
-    if (i>=s.size()/2)
-    {
-        return true;
-    }
-    if(s[i]!=s[s.size()-i-1])
-    {
-        return false;
-    }
-    return palin(s,i+1);
-}            
+// bool palin(string &s,int i=0)
+// {
+//     if (i>=s.size()/2)
+//     {
+//         return true;
+//     }
+//     if(s[i]!=s[s.size()-i-1])
+//     {
+//         return false;
+//     }
+//     return palin(s,i+1);
+// }            
 int main()
 {
     int n=7,i=0;
@@ -43,7 +43,7 @@ int main()
     cin>>a;
     // reverse(arr,n);
     // reverse2(i,arr,n);
-    cout<<palin(a);
+    // cout<<palin(a);
     // for(int i=0;i<n;i++)
     // {
     //     cout<<arr[i]<<" ";
