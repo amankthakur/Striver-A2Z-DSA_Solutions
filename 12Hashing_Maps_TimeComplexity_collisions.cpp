@@ -72,5 +72,28 @@ int main()
     //     cout<<mpp[number];
     // }
     // return 0;
-    
+
+    // implementing character map
+    // string s;
+    // cout<<"enter string \n";
+    // cin>>s;
+    // // pre computeing
+    // map<char,int>mpp;
+    // for(int i=0;i<s.size();i++)
+    // {
+    //     mpp[s[i]]++;
+    // }
+    // // query nummbering
+    // int q;
+    // cout<<"Enter no. of query \n";
+    // cin>>q;
+    // while(q--)
+    // {
+    //     char query;
+    //     cout<<"enter your query \n";
+    //     cin>>query;
+    //     // fetching
+    //     cout<<mpp[query]<<endl;
+    // }
+    // return 0;
 }
