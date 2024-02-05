@@ -46,8 +46,8 @@
 //     return maxlength;
 // }
 // // Optimal Solution
-int subarraypos(vector<int> &a, int k)
-{
+// int subarraypos(vector<int> &a, int k)
+// {
         //  int i = 0;
         //  int j = 0;
         //  int sum = 0;
@@ -95,7 +95,7 @@ int subarraypos(vector<int> &a, int k)
     //     }
     // }     
     // return maxlength;
-}
+// }
 
 int main()
 {
